@@ -1,6 +1,5 @@
 import React from 'react'
 import { useAuth } from '../context/AuthContext'
-import { BrowserRouter, Switch, Link} from 'react-router-dom'
 
 const LoginScreen = () => {
     const { googleSignIn } = useAuth()
