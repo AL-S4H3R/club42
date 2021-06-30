@@ -13,7 +13,7 @@ const PrivateRoute: React.FC<Props> = ({component, path}) => {
     
     return user 
     ? <Route component={component} path={path}/> 
-    : <Redirect to="/login" />
+    : <Redirect to="/" />
 }
 
 export default PrivateRoute
